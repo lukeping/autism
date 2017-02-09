@@ -1,0 +1,453 @@
+---
+title: "Only TD & ASD, cohort1,2,3"
+output: html_document
+---
+
+```{r}
+setwd("~/data/Autism/data/autism")
+source("../readData.R")
+```
+
+```{r PrepareData}
+# Functions
+funZfm <- function(data){
+  sname <- names(data)[-1]
+  d <- apply(data[,-1], 1, norm.z) %>% as.data.frame()
+  names(d) <- data$COMPID
+  d <- sapply(d, fill.miss) %>% as.data.frame()
+  d$ID <- sname
+  row.names(d) <- sname
+  d$GROUP <- samples$GROUP[which(samples$ID %in% sname)]
+  d$LOC <- samples$LOC[which(samples$ID %in% sname)]
+  d$COHORT <- samples$COHORT[which(samples$ID %in% sname)]
+  d$AGEGROUP <- samples$AGEGROUP[which(samples$ID %in% sname)]
+  d$PROC <- samples$PROC[which(samples$ID %in% sname)]
+  d$QC <- samples$QC[which(samples$ID %in% sname)]
+  return(d)
+}
+zscale.rd <- function(x, r = r.idx, d = d.idx){
+  x[r] <- (x[r]-mean(x[r], na.rm=T))/sd(x[r], na.rm = T)
+  x[d] <- (x[d]-mean(x[d], na.rm=T))/sd(x[d], na.rm = T)
+  return(x)
+}
+funZfm.rd <- function(data){
+  sname <- names(data)[-1]
+  g1 <- samples$ID[which(samples$COHORT == "C3" & samples$AGEGROUP %in% c("1","2") & samples$LOC == "R")]
+  g2 <- samples$ID[which(samples$COHORT == "C3" & samples$AGEGROUP %in% c("1","2") & samples$LOC == "D")]
+  r.idx <- which(sname %in% g1)
+  d.idx <- which(sname %in% g2)
+  d <- apply(data[,-1], 1, zscale.rd, r=r.idx, d=d.idx) %>% as.data.frame()
+  names(d) <- data$COMPID
+  d <- sapply(d, fill.miss) %>% as.data.frame()
+  d$ID <- sname
+  row.names(d) <- sname
+  d$GROUP <- samples$GROUP[which(samples$ID %in% sname)]
+  d$LOC <- samples$LOC[which(samples$ID %in% sname)]
+  d$COHORT <- samples$COHORT[which(samples$ID %in% sname)]
+  d$AGEGROUP <- samples$AGEGROUP[which(samples$ID %in% sname)]
+  d$PROC <- samples$PROC[which(samples$ID %in% sname)]
+  return(d)
+}
+
+colInfo <- c("ID","GROUP","COHORT","LOC","AGEGROUP","PROC","QC")
+
+# Filted the data only TD and ASD, age 2-10
+sl <- list(
+  c1 = samples$ID[which(samples$COHORT == "C1" & samples$GROUP %in% c("TD","ASD") & samples$AGEGROUP %in% c("1","2") & samples$QC < 0.4)],
+  c2.2_5 = samples$ID[which(samples$COHORT == "C1" & samples$GROUP %in% c("TD","ASD") & samples$AGEGROUP %in% c("1"))],
+  c2 = samples$ID[which(samples$COHORT == "C2" & samples$GROUP %in% c("TD","ASD") & samples$AGEGROUP %in% c("1","2") & samples$QC < 0.4)],
+  c2.2_5 = samples$ID[which(samples$COHORT == "C2" & samples$GROUP %in% c("TD","ASD") & samples$AGEGROUP %in% c("1"))],
+  c3 = samples$ID[which(samples$COHORT == "C3" & samples$GROUP %in% c("TD","ASD") & samples$AGEGROUP %in% c("1","2") & samples$QC < 0.4)],
+  c3.2_5 = samples$ID[which(samples$COHORT == "C3" & samples$AGEGROUP %in% c("1"))]
+)
+
+dl <- list(c1 = d1[,c(1,which(names(d1) %in% sl$c1))],
+           c2 = d2[,c(1,which(names(d2) %in% sl$c2))],
+           c3 = d3[,c(1,which(names(d3) %in% sl$c3))])
+
+dl.z <- list(c1 = funZfm(data = dl$c1),
+             c2 = funZfm(data = dl$c2),
+             c3 = funZfm(data = dl$c3))
+
+# Filt only TD and ASD
+sam.filt <- list(
+  c1 = samples$ID[which(samples$COHORT == "C1" & samples$GROUP %in% c("TD","ASD"))],
+  c2 = samples$ID[which(samples$COHORT == "C2" & samples$GROUP %in% c("TD","ASD"))],
+  c3 = samples$ID[which(samples$COHORT == "C3" & samples$GROUP %in% c("TD","ASD"))]
+)
+dz.filt <- list(
+  c1 = funZfm(data = d1[, c(1, which(names(d1) %in% sam.filt$c1))]),
+  c2 = funZfm(data = d2[,c(1, which(names(d2) %in% sam.filt$c2))]),
+  c3 = funZfm(data = d3[,c(1, which(names(d3) %in% sam.filt$c3))])
+)
+
+# Filt with QC
+sam.qc <- list(
+  c1 = samples$ID[which(samples$COHORT == "C1" & samples$GROUP %in% c("TD","ASD") & samples$QC < 0.4)],
+  c2 = samples$ID[which(samples$COHORT == "C2" & samples$GROUP %in% c("TD","ASD") & samples$QC < 0.4)],
+  c3 = samples$ID[which(samples$COHORT == "C3" & samples$GROUP %in% c("TD","ASD") & samples$QC < 0.4)]
+)
+dz.qc <- list(
+  c1 = funZfm(data = d1[, c(1, which(names(d1) %in% sam.qc$c1))]),
+  c2 = funZfm(data = d2[,c(1, which(names(d2) %in% sam.qc$c2))]),
+  c3 = funZfm(data = d3[,c(1, which(names(d3) %in% sam.qc$c3))])
+)
+dz.qc$m <- rbind(
+  dz.qc$c1[,c(colInfo, chem.f)],
+  dz.qc$c2[,c(colInfo, chem.f)],
+  dz.qc$c3[,c(colInfo, chem.f)]
+)
+
+chem.list <- list(c1 = d1$COMPID,
+                  c2 = d2$COMPID,
+                  c3 = d3$COMPID)
+chem.com <- intersect(chem.list$c1, chem.list$c2) %>% intersect(chem.list$c3)
+chem.bad <- union(which(is.na(apply(dl.z$c1[,chem.com],2,sd))) %>% names(),
+                  which(is.na(apply(dl.z$c2[,chem.com],2,sd))) %>% names()) %>% 
+            union(which(is.na(apply(dl.z$c3[,chem.com],2,sd))) %>% names())
+chem.f <- chem.com[-which(chem.com %in% chem.bad)]
+
+
+
+data.12 <- rbind(dl.z$c1[sl$c1,c(colInfo,chem.f)],
+             dl.z$c2[sl$c2, c(colInfo,chem.f)])
+data.12$GROUP <- factor(data.12$GROUP)
+data.3 <- dl.z$c3[sl$c3, c(colInfo,chem.f)]
+data.3$GROUP <- factor(data.3$GROUP)
+group.idx <- list(
+  asd = which(data.12$GROUP == "ASD"),
+  td = which(data.12$GROUP == "TD"),
+  asd.12.2_5 = which(data.12$GROUP == "ASD" & data.12$AGEGROUP == "1"),
+  td.12.2_5 = which(data.12$GROUP == "TD" & data.12$AGEGROUP == "1"),
+  asd.1 = which(data.12$GROUP == "ASD" & data.12$COHORT == "C1"),
+  td.1 = which(data.12$GROUP == "TD" & data.12$COHORT == "C1"),
+  asd.2 = which(data.12$GROUP == "ASD" & data.12$COHORT == "C2"),
+  td.2 = which(data.12$GROUP == "TD" & data.12$COHORT == "C2"),
+  asd.3 = which(data.3$GROUP == "ASD"),
+  td.3 = which(data.3$GROUP == "TD"),
+  asd.3.2_5 = which(data.3$GROUP == "ASD" & data.3$AGEGROUP == "1"),
+  td.3.2_5 = which(data.3$GROUP == "TD" & data.3$AGEGROUP == "1")
+)
+```
+
+
+```{r PCA}
+data.pca <- rbind(dl.z$c1[sl$c1,c(colInfo,chem.f)],
+                  dl.z$c2[sl$c2, c(colInfo,chem.f)], 
+                  dl.z$c3[sl$c3, c(colInfo,chem.f)])
+data.pca <- dl.z$c3[sl$c3, c(colInfo,chem.f)]
+data.m <- data.pca[,chem.f]
+data.m <- data.m[,which(apply(data.m[,1:length(data.m)],2,sd) != 0)]
+pca <- prcomp(data.m, scale. = TRUE)
+ggplot(as.data.frame(pca$x), aes(PC1, PC2)) +
+  geom_point(aes(color=factor(data.pca$PROC), shape = data.pca$GROUP), size=5, stroke=0.5) +
+  guides(fill=guide_legend(title=""), alpha=guide_legend(title = "")) + 
+  theme_bw() + 
+  theme(legend.key = element_blank()) 
+
+dp.list <- list(
+  td.c1 = dz.filt$c1 %>% filter(GROUP == "TD"),
+  asd.c1 = dz.filt$c1 %>% filter(GROUP == "ASD"),
+  td.c2 = dz.filt$c2 %>% filter(GROUP == "TD"),
+  asd.c2 = dz.filt$c2 %>% filter(GROUP == "ASD"),
+  td.c3 = dz.filt$c3 %>% filter(GROUP == "TD"),
+  asd.c3 = dz.filt$c3 %>% filter(GROUP == "ASD")
+)
+dp.list$td.m <- rbind(dp.list$td.c1[,c(colInfo,chem.f)],
+                      dp.list$td.c2[,c(colInfo,chem.f)],
+                      dp.list$td.c3[, c(colInfo, chem.f)])
+dp.list$asd.m <- rbind(dp.list$asd.c1[,c(colInfo,chem.f)],
+                      dp.list$asd.c2[,c(colInfo,chem.f)],
+                      dp.list$asd.c3[,c(colInfo,chem.f)])
+
+
+data.pca <- dp.list$td.c3
+data.pca$PROC <- factor(data.pca$PROC, levels = c("A","B"), labels = c("<6 hrs", ">6 hrs"))
+data.m <- data.pca[,chem.f]
+data.m <- data.m[,which(apply(data.m[,1:length(data.m)],2,sd) != 0)]
+pca <- prcomp(data.m, scale. = TRUE)
+title <- paste(data.pca$GROUP %>% unique() %>% as.character(), data.pca$COHORT %>% unique() %>% paste(collapse = " "), sep = "/")
+ggplot(as.data.frame(pca$x), aes(PC1, PC2)) +
+  geom_point(aes(fill=factor(data.pca$PROC)), pch = 21, size=5, stroke=0.5, alpha = 0.8) +
+  guides(fill=guide_legend(title="Process Time")) + 
+  ggtitle(title) +
+  theme_bw() + 
+  theme(legend.key = element_blank()) 
+
+
+# QC filted samples
+data.pca <- dz.qc$c3
+data.pca$PROC <- factor(data.pca$PROC, levels = c("A","B"), labels = c("<6 hrs", ">6 hrs"))
+data.m <- data.pca[,chem.f]
+data.m <- data.m[,which(apply(data.m[,1:length(data.m)],2,sd) != 0)]
+pca <- prcomp(data.m, scale. = TRUE)
+ggplot(as.data.frame(pca$x), aes(PC1, PC2)) +
+  geom_point(aes(fill=factor(data.pca$GROUP), alpha = factor(data.pca$PROC)), pch = 21, size=5, stroke=0.5) +
+  scale_alpha_manual(values = c(0.4, 1)) +
+  scale_fill_manual(values = c("red","blue")) +
+  guides(fill=guide_legend(title="GROUP"), alpha = guide_legend(title="Process Time")) + 
+  theme_bw() + 
+  theme(legend.key = element_blank()) 
+
+
+```
+
+```{r FeatureSelection}
+DE <- list(
+  de.12 = wx.f(data = data.12[, chem.f], group.idx$td, group.idx$asd),
+  de.12.2_5 = wx.f(data = data.12[, chem.f], group.idx$td.12.2_5, group.idx$asd.12.2_5),
+  de.1 = wx.f(data = data.12[, chem.f], group.idx$td.1, group.idx$asd.1),
+  de.2 = wx.f(data = data.12[, chem.f], group.idx$td.2, group.idx$asd.2),
+  de.3 = wx.f(data = data.3[, chem.f], group.idx$td.3, group.idx$asd.3),
+  de.3.2_5 = wx.f(data = data.3[, chem.f], group.idx$td.3.2_5, group.idx$asd.3.2_5)
+)
+
+# Feature selected by RFE
+d4fs <- data.12[,c("GROUP", chem.f)]
+nfold <- 10
+nrows = nrow(d4fs)
+folds = rep(1:nfold, len=nrows)[sample(nrows)]
+folds = lapply(1:nfold, function(x) which(folds == x))
+results = lapply(folds, svmRFE.wrap, d4fs, k=10, halve.above=100)
+rfe = WriteFeatures(results, d4fs, save=F)
+names(rfe) <- c("COMPID", "INDEX", "AvgRank")
+rfe$COMPID <- as.character(rfe$COMPID)
+
+d4fs <- data.12[which(data.12$AGEGROUP %in% c("1","2")),c("GROUP", chem.f)]
+nfold <- 10
+nrows = nrow(d4fs)
+folds = rep(1:nfold, len=nrows)[sample(nrows)]
+folds = lapply(1:nfold, function(x) which(folds == x))
+results = lapply(folds, svmRFE.wrap, d4fs, k=10, halve.above=100)
+rfe.2_5 = WriteFeatures(results, d4fs, save=F)
+names(rfe.2_5) <- c("COMPID", "INDEX", "AvgRank")
+rfe.2_5$COMPID <- as.character(rfe.2_5$COMPID)
+
+save(DE, rfe, rfe.2_5, file="feature.RData")
+load("feature.RData")
+
+```
+
+```{r PROClessThan6hrs}
+data.6hr <- list(
+  c1 = dz.filt$c1 %>% filter(PROC == "A" & AGEGROUP %in% c(1,2)),
+  c2 = dz.filt$c2 %>% filter(PROC == "A" & AGEGROUP %in% c(1,2)),
+  c3 = dz.filt$c3 %>% filter(PROC == "A" & AGEGROUP %in% c(1,2))
+)
+data.6hr$merg <- rbind(data.6hr$c1[,c(colInfo, chem.f)],
+                       data.6hr$c2[,c(colInfo, chem.f)],
+                       data.6hr$c3[,c(colInfo, chem.f)])
+data.pca <- data.6hr$c3
+data.m <- data.pca[,chem.f]
+
+data.m <- data.m[,which(apply(data.m[,1:length(data.m)],2,sd) != 0)]
+pca <- prcomp(data.m, scale. = TRUE)
+ggplot(as.data.frame(pca$x), aes(PC1, PC2)) +
+  geom_point(aes(fill=factor(data.pca$GROUP)), pch = 21, size=5, stroke=0.5, alpha = 0.8) +
+  geom_text(aes(label = data.pca$ID), size = 2) +
+  guides(fill=guide_legend(title="")) + 
+  theme_bw() + 
+  theme(legend.key = element_blank()) 
+
+asd.idx <- which(data.6hr$merg$GROUP == "ASD")
+td.idx <- which(data.6hr$merg$GROUP == "TD")
+DE.6hr <- wx.f(data = data.6hr$merg[, chem.f], td.idx, asd.idx)
+
+# Feature selected by RFE
+d4fs.6hr <- data.6hr$merg[,c("GROUP", chem.f)]
+nfold <- 10
+nrows = nrow(d4fs.6hr)
+folds = rep(1:nfold, len=nrows)[sample(nrows)]
+folds = lapply(1:nfold, function(x) which(folds == x))
+results = lapply(folds, svmRFE.wrap, d4fs.6hr, k=10, halve.above=100)
+rfe.6hr = WriteFeatures(results, d4fs.6hr, save=F)
+names(rfe.6hr) <- c("COMPID", "INDEX", "AvgRank")
+rfe.6hr$COMPID <- as.character(rfe.6hr$COMPID)
+
+
+class.svm <- function(data = data, feature = feature){
+  set.seed(113)
+  res <- data.frame()
+  data$GROUP <- factor(data$GROUP, levels = c("TD","ASD"))
+  idx.td <- which(data$GROUP == "TD")
+  idx.asd <- which(data$GROUP == "ASD")
+  for(i in c(1:100)){
+    frac <- 0.5
+    train.idx <- c(sample(idx.td,length(idx.td)*frac), 
+                   sample(idx.asd, length(idx.asd)*frac)
+    )
+    train <- data[train.idx,]
+    test <- data[-c(train.idx),]
+    wts <- 8/table(train$GROUP)
+    model <- svm(GROUP ~., data = train, class.weights = wts)
+    pred <- predict(model, test)
+    td.true <- which(pred == "TD" & test$GROUP == "TD") %>% length()
+    asd.true <- which(pred == "ASD" & test$GROUP == "ASD") %>% length()
+    td.total <- which(test$GROUP == "TD") %>% length()
+    asd.total <- which(test$GROUP == "ASD") %>% length()
+    res[i, "acc"] <- (td.true + asd.true)/(td.total + asd.total) %>% round(digits = 3)
+    res[i, "sens"] <- asd.true/asd.total
+    res[i, "spec"] <- td.true/td.total
+  }
+  return(res)
+}
+
+feature <- (DE.6hr %>% filter(fdr < 0.001))$COMPID
+data <- data.6hr$merg[, c("GROUP", feature)]
+pred.res <- class.svm(data = data, feature = feature)
+
+# PCA with DE features
+data.pca <- rbind(data.6hr$c1[,c(colInfo, feature)],
+                       data.6hr$c2[,c(colInfo, feature)],
+                       data.6hr$c3[,c(colInfo, feature)])
+data.m <- data.pca[,feature]
+#data.m <- data.m[,which(apply(data.m[,1:length(data.m)],2,sd) != 0)]
+pca <- prcomp(data.m, scale. = TRUE)
+ggplot(as.data.frame(pca$x), aes(PC1, PC2)) +
+  geom_point(aes(fill=factor(data.pca$GROUP)), pch = 21, size=5, stroke=0.5, alpha = 0.8) +
+  geom_text(aes(label = data.pca$ID), size = 2) +
+  guides(fill=guide_legend(title="")) + 
+  ggtitle("Process Time Less Than 6 hrs") +
+  theme_bw() + 
+  theme(legend.key = element_blank())
+```
+
+```{r PROMoreThan6hrs}
+#colInfo <- c("ID","GROUP","COHORT","LOC","AGEGROUP","PROC")
+data.g6 <- list(
+  c1 = dz.filt$c1 %>% filter(PROC == "B" & AGEGROUP %in% c(1,2)),
+  c2 = dz.filt$c2 %>% filter(PROC == "B" & AGEGROUP %in% c(1,2)),
+  c3 = dz.filt$c3 %>% filter(PROC == "B" & AGEGROUP %in% c(1,2))
+)
+data.g6$merg <- rbind(data.g6$c1[,c(colInfo, chem.f)],
+                       data.g6$c2[,c(colInfo, chem.f)],
+                       data.g6$c3[,c(colInfo, chem.f)])
+data.pca <- data.g6$merg
+data.m <- data.pca[,chem.f]
+data.m <- data.m[,which(apply(data.m[,1:length(data.m)],2,sd) != 0)]
+pca <- prcomp(data.m, scale. = TRUE)
+ggplot(as.data.frame(pca$x), aes(PC1, PC2)) +
+  geom_point(aes(fill=factor(data.pca$GROUP)), pch = 21, size=5, stroke=0.5, alpha = 0.8) +
+  geom_text(aes(label = data.pca$ID), size = 2) +
+  guides(fill=guide_legend(title="")) + 
+  theme_bw() + 
+  theme(legend.key = element_blank()) 
+
+asd.idx <- which(data.g6$merg$GROUP == "ASD")
+td.idx <- which(data.g6$merg$GROUP == "TD")
+DE.g6 <- wx.f(data = data.g6$merg[, chem.f], td.idx, asd.idx)
+
+# Feature selected by RFE
+d4fs.g6 <- data.g6$merg[,c("GROUP", chem.f)]
+nfold <- 10
+nrows = nrow(d4fs.g6)
+folds = rep(1:nfold, len=nrows)[sample(nrows)]
+folds = lapply(1:nfold, function(x) which(folds == x))
+results = lapply(folds, svmRFE.wrap, d4fs.g6, k=10, halve.above=100)
+rfe.g6 = WriteFeatures(results, d4fs.g6, save=F)
+names(rfe.g6) <- c("COMPID", "INDEX", "AvgRank")
+rfe.g6$COMPID <- as.character(rfe.g6$COMPID)
+
+feature <- (DE.g6 %>% filter(fdr < 0.01))$COMPID
+data <- data.g6$merg[, c("GROUP", feature)]
+pred.res <- class.svm(data = data, feature = feature)
+
+# PCA with DE features
+data.pca <- rbind(data.g6$c1[,c(colInfo, feature)],
+                       data.g6$c2[,c(colInfo, feature)],
+                       data.g6$c3[,c(colInfo, feature)])
+data.m <- data.pca[,feature]
+#data.m <- data.m[,which(apply(data.m[,1:length(data.m)],2,sd) != 0)]
+pca <- prcomp(data.m, scale. = TRUE)
+ggplot(as.data.frame(pca$x), aes(PC1, PC2)) +
+  geom_point(aes(fill=factor(data.pca$GROUP)), pch = 21, size=5, stroke=0.5, alpha = 0.8) +
+  geom_text(aes(label = data.pca$ID), size = 2) +
+  guides(fill=guide_legend(title="")) + 
+  ggtitle("Process Time More Than 6 hrs") +
+  theme_bw() + 
+  theme(legend.key = element_blank())
+
+feature.list <- list(
+  "LessThan6hrs" = DE.6hr %>% filter(fdr < 0.001) %>% left_join(chem),
+  "MoreThan6hrs" = DE.g6 %>% filter(fdr < 0.01) %>% left_join(chem)
+)
+write.xlsx(feature.list, file="DEfeatures.xlsx")
+```
+
+```{r Classification}
+feature.list <- list(
+  DE50 = DE$de.12$COMPID[1:50],
+  RFE50 = rfe$COMPID[1:50],
+  DEovlp = DE$de.12$COMPID[which(DE$de.12$fdr < 0.01)] %>% intersect(DE$de.3$COMPID[which(DE$de.3$fdr < 0.05)]),
+  DE1ov2 = DE$de.1$COMPID[which(DE$de.1$fdr < 0.01)] %>%
+    intersect(DE$de.2$COMPID[which(DE$de.2$fdr < 0.01)]),
+  quant5 = c("527","15506","1437","1303","3147")
+)
+
+result <- list()
+result[["Summary"]] <- data.frame()
+result[["Info"]] <- data.frame(
+  ID=data.3$ID,
+  LOC = data.3$LOC,
+  GROUP = data.3$GROUP
+)
+
+total.asd <- sum(data.3$GROUP == "ASD")
+total.td <- sum(data.3$GROUP == "TD")
+for(n in names(feature.list)){
+  feature <- feature.list[[n]]
+  train <- data.12[, c("GROUP", feature)]
+  test <- data.3[, c("GROUP", feature)]
+  model <- svm(GROUP ~., data = train)
+  model.p <- svm(GROUP ~., data = train, probability = TRUE)
+  pred <- predict(model, test)
+  pred.p <- predict(model.p, test, probability = TRUE)
+  result[["Info"]][,paste(n,c("ASD","TD"),"p-value")] <- attr(pred.p,"probabilities")
+  result[["Info"]][,n] <- pred
+  true.asd <- sum(data.3$GROUP == "ASD" &  pred == "ASD")
+  true.td <- sum(data.3$GROUP == "TD" & pred == "TD")
+  result[["Summary"]][n,"Sensitivity"] <- round(true.asd/total.asd, digits = 3)
+  result[["Summary"]][n,"Specificity"] <- round(true.td/total.td, digits = 3)
+  result[["Summary"]][n,"Accuracy"] <- round((true.td + true.asd)/(total.asd + total.td), digits = 3)
+}
+
+write.xlsx(result, file = "Predict cohort 3 with cohort 1&2.xlsx", row.names = TRUE)
+```
+
+```{r ClassAgeGroup}
+data.list  <- list(
+  age2_5 = list(train = data.12[c(group.idx$asd.12.2_5, group.idx$td.12.2_5),],
+                test = data.3[c(group.idx$asd.3.2_5, group.idx$td.3.2_5),]),
+  age2_10 = list(train = data.12,
+                 test = data.3[c(group.idx$asd.3, group.idx$td.3),])
+)
+feature.list <- list(
+  DE50 = DE$de.12$COMPID[1:50],
+  RFE50 = rfe$COMPID[1:50],
+  DE1ov2 = DE$de.1$COMPID[which(DE$de.1$fdr < 0.01)] %>%
+    intersect(DE$de.2$COMPID[which(DE$de.2$fdr < 0.01)]),
+  quant5 = c("527","15506","1437","1303","3147")
+)
+
+result.group <- data.frame()
+for(f in names(feature.list)){
+  for(g in names(data.list)){
+    total.asd <- sum(data.list[[g]]$test$GROUP == "ASD")
+    total.td <- sum(data.list[[g]]$test$GROUP == "TD")
+    feature <- feature.list[[f]]
+    train <- data.list[[g]]$train[, c("GROUP", feature)]
+    test <- data.list[[g]]$test[, c("GROUP", feature)]
+    wts <- 20/table(train$GROUP)
+    model <- svm(GROUP ~., data = train, class.weights = wts)
+    pred <- predict(model, test)
+    true.asd <- sum(test$GROUP == "ASD" &  pred == "ASD")
+    true.td <- sum(test$GROUP == "TD" & pred == "TD")
+    result.group["ASD acc", paste(f,g)] <- paste(true.asd, "/", total.asd, "(", round(true.asd/total.asd*100, digits = 2), ")", sep="")
+    result.group["TD acc", paste(f,g)] <- paste(true.td, "/", total.td, "(", round(true.td/total.td*100, digits = 2), ")", sep="")
+  }
+}
+
+
+```
+
+
