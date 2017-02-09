@@ -1,0 +1,995 @@
+COMPID	CHEMNAME	CHEMPATH
+48763	3-methoxycatechol sulfate (1)	Benzoate Metabolism
+48407	dopamine 3-O-sulfate	Tyrosine Metabolism
+48492	behenoyl sphingomyelin (d18:1/22:0)*	Sphingolipid Metabolism
+15736	4-acetamidophenylglucuronide	Drug
+32492	caprylate (8:0)	Medium Chain Fatty Acid
+46144	methyl glucopyranoside (alpha + beta)	Food Component/Plant
+32425	dehydroisoandrosterone sulfate (DHEA-S)	Steroid
+52281	2-hydroxybutyrate/2-hydroxyisobutyrate	Glutathione Metabolism
+43255	N-acetyl-1-methylhistidine*	Histidine Metabolism
+38309	4-hydroxy-2-nonenal	Fatty Acid, Oxidized
+35665	N-acetyl-aspartyl-glutamate (NAAG)	Glutamate Metabolism
+53180	1-palmitoleoyl-2-linolenoyl-GPC (16:1/18:3)*	Phosphatidylcholine (PC)
+53242	5-bromotryptophan	Tryptophan Metabolism
+55015	gamma-glutamyl-alpha-lysine	Gamma-glutamyl Amino Acid
+35322	hydroquinone sulfate	Drug
+37443	cysteine sulfinic acid	Methionine, Cysteine, SAM and Taurine Metabolism
+33228	1-arachidonoyl-GPC (20:4n6)*	Lysophospholipid
+32619	pregn steroid monosulfate*	Steroid
+48465	5-KETE	Eicosanoid
+46106	desmethylnaproxen sulfate	Drug
+32458	oleamide	Fatty Acid, Amide
+52460	1-palmitoyl-2-linoleoyl-GPC (16:0/18:2)*	Phospholipid Metabolism
+54745	cetirizine	Drug
+53263	docosahexaenoylcholine	Fatty Acid Metabolism (Acyl Choline)
+37020	carbamazepine 10,11-epoxide*	Drug
+33952	myristoylcarnitine (C14)	Fatty Acid Metabolism(Acyl Carnitine)
+52234	glycosyl-N-stearoyl-sphingosine (d18:1/18:0)	Ceramides
+37516	arabonate	Ascorbate and Aldarate Metabolism
+39379	glycoursodeoxycholate	Secondary Bile Acid Metabolism
+34404	1,3,7-trimethylurate	Xanthine Metabolism
+1587	N-acetylleucine	Leucine, Isoleucine and Valine Metabolism
+54958	palmitoyl-arachidonoyl-glycerol (16:0/20:4) [2]*	Diacylglycerol
+15136	xanthosine	Purine Metabolism, (Hypo)Xanthine/Inosine containing
+43488	N-acetylcarnosine	Dipeptide Derivative
+35651	ectoine	Chemical
+31934	2-hydroxyadipate	Fatty Acid, Dicarboxylate
+21232	2-oleoylglycerol (18:1)	Monoacylglycerol
+37093	alanylleucine	Dipeptide
+35320	catechol sulfate	Benzoate Metabolism
+31928	2-methylbutyrylglycine	Leucine, Isoleucine and Valine Metabolism
+43330	2-hydroxyibuprofen	Drug
+45404	N-acetylalliin	Food Component/Plant
+54910	vanillactate	Tyrosine Metabolism
+1644	heptanoate (7:0)	Medium Chain Fatty Acid
+57481	sphingomyelin (d18:1/20:2, d18:2/20:1, d16:1/22:2)*	Sphingolipid Metabolism
+31555	pyridoxate	Vitamin B6 Metabolism
+33419	2-palmitoylglycerol (16:0)	Monoacylglycerol
+52464	1-palmitoyl-2-arachidonoyl-GPE (16:0/20:4)*	Phosphatidylethanolamine (PE)
+35186	1-arachidonoyl-GPE (20:4n6)*	Lysophospholipid
+48406	dopamine 4-sulfate	Tyrosine Metabolism
+35661	lidocaine	Drug
+40045	leucylglycine	Dipeptide
+40708	pregnanediol-3-glucuronide	Steroid
+52603	1,2-dilinoleoyl-GPC (18:2/18:2)	Phosphatidylcholine (PC)
+46173	aconitate [cis or trans]	TCA Cycle
+48195	fructose	Fructose, Mannose and Galactose Metabolism
+32599	glycocholenate sulfate*	Secondary Bile Acid Metabolism
+35159	cysteine-glutathione disulfide	Glutathione Metabolism
+1516	sarcosine	Glycine, Serine and Threonine Metabolism
+33983	tauro-beta-muricholate	Primary Bile Acid Metabolism
+32398	sebacate (decanedioate)	Fatty Acid, Dicarboxylate
+15122	glycerol	Glycerolipid Metabolism
+15506	choline	Phospholipid Metabolism
+41494	alliin	Food Component/Plant
+32342	adenosine 5'-monophosphate (AMP)	Purine Metabolism, Adenine containing
+32807	taurocholenate sulfate	Secondary Bile Acid Metabolism
+17945	2-hydroxystearate	Fatty Acid, Monohydroxy
+52988	adipoylcarnitine (C6-DC)	Fatty Acid Metabolism(Acyl Carnitine)
+39864	lathosterol	Sterol
+27710	N-acetylglycine	Glycine, Serine and Threonine Metabolism
+1643	fumarate	TCA Cycle
+27738	threonate	Ascorbate and Aldarate Metabolism
+43502	N-octanoylglycine	Fatty Acid Metabolism(Acyl Glycine)
+1649	valine	Leucine, Isoleucine and Valine Metabolism
+43847	glycerol 3-phosphate	Glycerolipid Metabolism
+22185	N-acetylaspartate (NAA)	Alanine and Aspartate Metabolism
+48269	palmitoyl-linoleoyl-glycerophosphocholine (2)*	Lysolipid
+34390	7-methylxanthine	Xanthine Metabolism
+22290	2-propylpentanoate (valproate)	Drug
+48304	palmitoyl-linoleoyl-glycerophosphoinositol (1)*	Lysolipid
+34109	metoprolol acid metabolite*	Drug
+38002	1,2-propanediol	Chemical
+32346	glycochenodeoxycholate	Primary Bile Acid Metabolism
+48182	myristoleoylcarnitine (C14:1)*	Fatty Acid Metabolism(Acyl Carnitine)
+27531	hyodeoxycholate	Secondary Bile Acid Metabolism
+36099	4-ethylphenylsulfate	Benzoate Metabolism
+605	uracil	Pyrimidine Metabolism, Uracil containing
+21127	1-palmitoylglycerol (16:0)	Monoacylglycerol
+36103	p-cresol sulfate	Benzoate Metabolism
+18369	gamma-glutamylleucine	Gamma-glutamyl Amino Acid
+37538	15-HETE	Eicosanoid
+31591	androsterone sulfate	Steroid
+32418	myristoleate (14:1n5)	Long Chain Fatty Acid
+35130	N4-acetylcytidine	Pyrimidine Metabolism, Cytidine containing
+57516	cerotoylcarnitine (C26)*	Fatty Acid Metabolism(Acyl Carnitine)
+1505	orotate	Pyrimidine Metabolism, Orotate containing
+57515	lignoceroylcarnitine (C24)*	Fatty Acid Metabolism(Acyl Carnitine)
+44664	glutarylcarnitine (C5-DC)	Lysine Metabolism
+46325	1-arachidonoyl-GPA (20:4)	Lysophospholipid
+57691	trazadone	Drug
+32455	linoleamide (18:2n6)	Fatty Acid, Amide
+43802	guanidinoacetate	Creatine Metabolism
+49617	1-lignoceroyl-GPC (24:0)	Lysophospholipid
+32197	3-(4-hydroxyphenyl)lactate	Tyrosine Metabolism
+57416	N-palmitoyl-sphingadienine (d18:2/16:0)*	Sphingolipid Metabolism
+33950	N-acetylphenylalanine	Phenylalanine Metabolism
+55017	4-hydroxyphenylacetylglutamine	Acetylated Peptides
+1336	palmitate (16:0)	Long Chain Fatty Acid
+27718	creatine	Creatine Metabolism
+52682	1-(1-enyl-palmitoyl)-2-linoleoyl-GPC (P-16:0/18:2)*	Plasmalogen
+34424	5-acetylamino-6-amino-3-methyluracil	Xanthine Metabolism
+37478	docosapentaenoate (n6 DPA; 22:5n6)	Polyunsaturated Fatty Acid (n3 and n6)
+37459	ergothioneine	Food Component/Plant
+31889	taurolithocholate	Secondary Bile Acid Metabolism
+5983	corticosterone	Steroid
+32445	3-methylxanthine	Xanthine Metabolism
+44618	3-methoxytyramine sulfate	Tyrosine Metabolism
+38366	ibuprofen acyl glucuronide	Drug
+32984	N-alpha-acetylornithine	Urea cycle; Arginine and Proline Metabolism
+57479	sphingomyelin (d18:2/24:2)*	Sphingolipid Metabolism
+33972	10-nonadecenoate (19:1n9)	Long Chain Fatty Acid
+35728	1,3-dipalmitoylglycerol	Diacylglycerol
+37445	4-hydroxycoumarin	Drug
+42574	glycohyocholate	Secondary Bile Acid Metabolism
+38399	9,10-DiHOME	Fatty Acid, Dihydroxy
+32620	glycolithocholate sulfate*	Secondary Bile Acid Metabolism
+40475	valylglycine	Dipeptide
+36600	1-linoleoyl-GPE (18:2)*	Lysophospholipid
+40499	4-hydroxyglutamate	Glutamate Metabolism
+54805	3beta-hydroxy-5-cholestenoate	Sterol
+35678	hexadecanedioate	Fatty Acid, Dicarboxylate
+21294	estriol 3-sulfate	Steroid
+44681	palmitoylcarnitine (C16)	Fatty Acid Metabolism(Acyl Carnitine)
+52437	sphingomyelin (d18:2/24:1, d18:1/24:2)*	Sphingolipid Metabolism
+57547	2,3-dihydroxy-2-methylbutyrate	Leucine, Isoleucine and Valine Metabolism
+38160	hydroquinone beta-D-glucopyranoside	Food Component/Plant
+575	arabinose	Pentose Metabolism
+48130	N6-succinyladenosine	Purine Metabolism, Adenine containing
+37209	androstenediol (3alpha, 17alpha) monosulfate (3)	Steroid
+32401	trigonelline (N'-methylnicotinate)	Nicotinate and Nicotinamide Metabolism
+57474	sphingomyelin (d18:2/18:1)*	Sphingolipid Metabolism
+54762	lamotrigine	Drug
+1519	sucrose	Disaccharides and Oligosaccharides
+43829	gamma-glutamylvaline	Gamma-glutamyl Amino Acid
+528	alpha-ketoglutarate	TCA Cycle
+44878	methionine sulfone	Methionine, Cysteine, SAM and Taurine Metabolism
+53176	1-linoleoyl-2-linolenoyl-GPC (18:2/18:3)*	Phosphatidylcholine (PC)
+44675	docosahexaenoate (DHA; 22:6n3)	Polyunsaturated Fatty Acid (n3 and n6)
+1512	picolinate	Tryptophan Metabolism
+15667	2-isopropylmalate	Food Component/Plant
+47886	bilirubin (E,Z or Z,E)*	Hemoglobin and Porphyrin Metabolism
+46342	leukotriene B5	Eicosanoid
+15677	3-methylhistidine	Histidine Metabolism
+35107	isovalerylglycine	Leucine, Isoleucine and Valine Metabolism
+34437	1-stearoyl-GPG (18:0)	Lysophospholipid
+22030	2-hydroxyisobutyrate	Chemical
+41375	tyrosylglycine	Dipeptide
+1827	riboflavin (Vitamin B2)	Riboflavin Metabolism
+2772	topiramate	Drug
+39511	campesterol	Sterol
+594	nicotinamide	Nicotinate and Nicotinamide Metabolism
+48187	N-acetyltaurine	Methionine, Cysteine, SAM and Taurine Metabolism
+54979	N-stearoyl-sphingosine (d18:1/18:0)*	Ceramides
+57473	sphingomyelin (d18:0/18:0, d19:0/17:0)*	Sphingolipid Metabolism
+57463	linoleoylcholine*	Fatty Acid Metabolism (Acyl Choline)
+34093	hyocholate	Secondary Bile Acid Metabolism
+531	3-hydroxy-3-methylglutarate	Mevalonate Metabolism
+41370	phenylalanylglycine	Dipeptide
+37033	carbamazepine	Drug
+15747	anserine	Dipeptide Derivative
+22206	theanine	Food Component/Plant
+38296	17-methylstearate	Fatty Acid, Branched
+33934	gamma-glutamyl-epsilon-lysine	Gamma-glutamyl Amino Acid
+47132	5alpha-androstan-3alpha, 17beta-diol-17-glucosiduronate	Steroid
+1549	3-hydroxyisobutyrate	Leucine, Isoleucine and Valine Metabolism
+12032	4-acetamidophenol	Drug
+37190	5alpha-androstan-3beta,17beta-diol disulfate	Steroid
+35482	2-methylmalonyl carnitine	Fatty Acid Synthesis
+52960	aripiprazole	Drug
+33961	1-stearoyl-GPC (18:0)	Lysophospholipid
+52966	azithromycin	Drug
+36746	2-hydroxy-3-methylvalerate	Leucine, Isoleucine and Valine Metabolism
+46142	mannitol/sorbitol	Fructose, Mannose and Galactose Metabolism
+38658	atenolol	Drug
+34397	1-arachidonylglycerol (20:4)	Monoacylglycerol
+54955	linoleoyl-arachidonoyl-glycerol (18:2/20:4) [1]*	Diacylglycerol
+15705	cystathionine	Methionine, Cysteine, SAM and Taurine Metabolism
+46301	9-HETE	Eicosanoid
+33939	N-acetylthreonine	Glycine, Serine and Threonine Metabolism
+38395	12,13-DiHOME	Fatty Acid, Dihydroxy
+57635	carotene diol (1)	Food Component/Plant
+18245	gamma-glutamylhistidine	Gamma-glutamyl Amino Acid
+41397	(15:2)-anacardic acid	Food Component/Plant
+60	leucine	Leucine, Isoleucine and Valine Metabolism
+57595	glycosyl ceramide (d18:1/20:0, d16:1/22:0)*	Ceramides
+44877	N-palmitoyl-sphingosine (d18:1/16:0)	Ceramides
+34409	stearoylcarnitine (C18)	Fatty Acid Metabolism(Acyl Carnitine)
+3127	hypoxanthine	Purine Metabolism, (Hypo)Xanthine/Inosine containing
+35718	dihomo-linolenate (20:3n3 or n6)	Polyunsaturated Fatty Acid (n3 and n6)
+11953	1,2-dipalmitoylglycerol	Diacylglycerol
+37059	malonylcarnitine	Fatty Acid Synthesis
+53261	arachidonoylcholine	Fatty Acid Metabolism (Acyl Choline)
+38669	diphenhydramine	Drug
+54736	phenylacetylmethionine	Acetylated Peptides
+53	glutamine	Glutamate Metabolism
+35137	N2,N2-dimethylguanosine	Purine Metabolism, Guanine containing
+33941	decanoylcarnitine (C10)	Fatty Acid Metabolism(Acyl Carnitine)
+38167	11-ketoetiocholanolone sulfate	Steroid
+1571	estrone	Steroid
+33364	gamma-glutamylthreonine	Gamma-glutamyl Amino Acid
+555	adenosine	Purine Metabolism, Adenine containing
+48351	N1-methylinosine	Purine Metabolism, (Hypo)Xanthine/Inosine containing
+37203	androstenediol (3beta,17beta) disulfate (2)	Steroid
+32306	trans-4-hydroxyproline	Urea cycle; Arginine and Proline Metabolism
+569	caffeine	Xanthine Metabolism
+21025	iminodiacetate (IDA)	Chemical
+57668	dexlansoprazole	Drug
+36752	N6-acetyllysine	Lysine Metabolism
+34035	linolenate [alpha or gamma; (18:3n3 or 6)]	Polyunsaturated Fatty Acid (n3 and n6)
+36850	taurolithocholate 3-sulfate	Secondary Bile Acid Metabolism
+1648	serine	Glycine, Serine and Threonine Metabolism
+57393	12-HHTrE	Eicosanoid
+12067	undecanoate (11:0)	Medium Chain Fatty Acid
+35133	N2-methylguanosine	Purine Metabolism, Guanine containing
+57577	isoursodeoxycholate	Secondary Bile Acid Metabolism
+57659	N-palmitoylserine	Endocannabinoid
+37506	palmitoyl sphingomyelin (d18:1/16:0)	Sphingolipid Metabolism
+37211	androstenediol (3beta,17beta) monosulfate (1)	Steroid
+1670	urea	Urea cycle; Arginine and Proline Metabolism
+22163	EDTA	Chemical
+32391	1,3-dimethylurate	Xanthine Metabolism
+54956	linoleoyl-arachidonoyl-glycerol (18:2/20:4) [2]*	Diacylglycerol
+52432	2-palmitoleoylglycerol (16:1)*	Monoacylglycerol
+32504	docosapentaenoate (n3 DPA; 22:5n3)	Polyunsaturated Fatty Acid (n3 and n6)
+39609	16-hydroxypalmitate	Fatty Acid, Monohydroxy
+15745	methylsuccinate	Leucine, Isoleucine and Valine Metabolism
+48841	p-cresol-glucuronide*	Tyrosine Metabolism
+37056	carbamazepine glucuronide*	Drug
+54942	palmitoyl-oleoyl-glycerol (16:0/18:1) [2]*	Diacylglycerol
+39994	valylleucine	Dipeptide
+48493	sphingomyelin (d18:1/22:1, d18:2/22:0, d16:1/24:1)*	Sphingolipid Metabolism
+36848	3-ethylphenylsulfate	Benzoate Metabolism
+52615	sphingomyelin (d18:1/17:0, d17:1/18:0, d19:1/16:0)	Sphingolipid Metabolism
+57476	sphingomyelin (d18:0/20:0, d16:0/22:0)*	Sphingolipid Metabolism
+40406	trimethylamine N-oxide	Phospholipid Metabolism
+15806	maltose	Glycogen Metabolism
+37076	N-acetylserine	Glycine, Serine and Threonine Metabolism
+52285	oleate/vaccenate (18:1)	Long Chain Fatty Acid
+15679	xanthurenate	Tryptophan Metabolism
+37499	p-toluic acid	Chemical
+52925	phenylacetylglutamate	Acetylated Peptides
+48497	stearoyl-arachidonoyl-glycerophosphoethanolamine (1)*	Lysolipid
+1564	citrate	TCA Cycle
+33161	2-methoxyacetaminophen glucuronide*	Drug
+43400	2-piperidinone	Food Component/Plant
+15142	allo-threonine	Glycine, Serine and Threonine Metabolism
+566	phenylpyruvate	Phenylalanine Metabolism
+43424	dimethyl sulfone	Chemical
+53026	3,4-methyleneheptanoate	Food Component/Plant
+52475	1-(1-enyl-stearoyl)-2-arachidonoyl-GPE (P-18:0/20:4)*	Plasmalogen
+33422	gamma-glutamylphenylalanine	Gamma-glutamyl Amino Acid
+53229	2-methylserine	Glycine, Serine and Threonine Metabolism
+18368	cys-gly, oxidized	Glutathione Metabolism
+52944	palmitoylcholine	Fatty Acid Metabolism (Acyl Choline)
+48189	leucylglutamine*	Dipeptide
+35428	tiglylcarnitine (C5:1-DC)	Leucine, Isoleucine and Valine Metabolism
+32446	guanidinosuccinate	Guanidino and Acetamido Metabolism
+1584	methyl indole-3-acetate	Food Component/Plant
+2125	taurine	Methionine, Cysteine, SAM and Taurine Metabolism
+36738	gamma-glutamylglutamate	Gamma-glutamyl Amino Acid
+48434	N-acetylcitrulline	Urea cycle; Arginine and Proline Metabolism
+48782	C-glycosyltryptophan	Tryptophan Metabolism
+15443	glucuronate	Aminosugar Metabolism
+567	lactose	Disaccharides and Oligosaccharides
+39598	7-methylurate	Xanthine Metabolism
+3141	betaine	Glycine, Serine and Threonine Metabolism
+COMP ID	BIOCHEMICAL	SUB PATHWAY
+1515	salicylate	Drug
+37198	5alpha-pregnan-3beta,20alpha-diol disulfate	Steroid
+35136	5-methyluridine (ribothymidine)	Pyrimidine Metabolism, Uracil containing
+52467	1-palmitoyl-2-arachidonoyl-GPI (16:0/20:4)*	Phosphatidylinositol (PI)
+1642	caprate (10:0)	Medium Chain Fatty Acid
+40730	imidazole propionate	Histidine Metabolism
+57331	behenoyl dihydrosphingomyelin (d18:0/22:0)*	Sphingolipid Metabolism
+43256	N-acetyl-3-methylhistidine*	Histidine Metabolism
+39732	N-oleoyltaurine	Endocannabinoid
+52431	1-palmitoleoylglycerol (16:1)*	Monoacylglycerol
+35668	testosterone sulfate	Steroid
+40703	prolylglycine	Dipeptide
+32635	1-linoleoyl-GPE (18:2)*	Lysolipid
+1125	isoleucine	Leucine, Isoleucine and Valine Metabolism
+1669	4-hydroxyphenylpyruvate	Tyrosine Metabolism
+35637	cysteinylglycine	Glutathione Metabolism
+37185	5alpha-androstan-3alpha,17beta-diol monosulfate (2)	Steroid
+18357	glycylvaline	Dipeptide
+22053	3-hydroxydecanoate	Fatty Acid, Monohydroxy
+32452	propionylcarnitine (C3)	Fatty Acid Metabolism (also BCAA Metabolism)
+57521	dihomo-linolenoylcarnitine (20:3n3 or 6)*	Fatty Acid Metabolism(Acyl Carnitine)
+52947	4-HDoHE	Fatty Acid, Monohydroxy
+59	histidine	Histidine Metabolism
+44526	3-methyl-2-oxobutyrate	Leucine, Isoleucine and Valine Metabolism
+38102	oleoyl ethanolamide	Endocannabinoid
+52990	suberoylcarnitine (C8-DC)	Fatty Acid Metabolism(Acyl Carnitine)
+45968	1-oleoyl-GPG (18:1)*	Lysolipid
+37112	chiro-inositol	Inositol Metabolism
+5086	dimethylglycine	Glycine, Serine and Threonine Metabolism
+46539	N-acetylglucosamine/N-acetylgalactosamine	Aminosugar Metabolism
+37252	norfluoxetine	Drug
+18335	quinate	Food Component/Plant
+4968	alpha-ketobutyrate	Methionine, Cysteine, SAM and Taurine Metabolism
+48431	tetrahydrodeoxycorticosterone disulfate	Steroid
+1301	lysine	Lysine Metabolism
+443	aspartate	Alanine and Aspartate Metabolism
+52690	1-linoleoyl-GPA (18:2)*	Lysophospholipid
+1284	threonine	Glycine, Serine and Threonine Metabolism
+27672	3-indoxyl sulfate	Tryptophan Metabolism
+52436	tricosanoyl sphingomyelin (d18:1/23:0)*	Sphingolipid Metabolism
+34383	2-myristoylglycerol (14:0)	Monoacylglycerol
+48693	3-acetylphenol sulfate	Chemical
+37187	5alpha-androstan-3beta,17alpha-diol disulfate	Steroid
+37530	leukotriene B4	Eicosanoid
+19266	2-arachidonoylglycerol (20:4)	Monoacylglycerol
+1299	tyrosine	Tyrosine Metabolism
+18474	estrone 3-sulfate	Steroid
+53231	thioproline	Chemical
+43264	3-hydroxybutyrylcarnitine (1)	Fatty Acid Metabolism(Acyl Carnitine)
+35177	erucamide	Fatty Acid, Amide
+19265	1-stearoyl-2-oleoyl-GPS (18:0/18:1)	Phosphatidylserine (PS)
+606	uridine	Pyrimidine Metabolism, Uracil containing
+43582	5-(galactosylhydroxy)-L-lysine	Lysine Metabolism
+48141	2-keto-3-deoxy-gluconate	Food Component/Plant
+2132	citrulline	Urea cycle; Arginine and Proline Metabolism
+18494	taurochenodeoxycholate	Primary Bile Acid Metabolism
+37431	N-methylproline	Urea cycle; Arginine and Proline Metabolism
+41888	succinimide	Chemical
+36776	7-alpha-hydroxy-3-oxo-4-cholestenoate (7-Hoca)	Sterol
+48152	glucose	Glycolysis, Gluconeogenesis, and Pyruvate Metabolism
+35160	oleoylcarnitine (C18:1)	Fatty Acid Metabolism(Acyl Carnitine)
+607	trans-urocanate	Histidine Metabolism
+542	3-hydroxybutyrate (BHBA)	Ketone Bodies
+1481	inositol 1-phosphate (I1P)	Inositol Metabolism
+39586	pseudoephedrine	Drug
+1498	N6,N6,N6-trimethyllysine	Lysine Metabolism
+54	tryptophan	Tryptophan Metabolism
+43231	6-oxopiperidine-2-carboxylate	Lysine Metabolism
+32827	andro steroid monosulfate (1)*	Steroid
+37207	androstenediol (3alpha, 17alpha) monosulfate (2)	Steroid
+52726	1-stearoyl-2-oleoyl-GPI (18:0/18:1)*	Phosphatidylinositol (PI)
+45970	1-palmitoyl-GPG (16:0)*	Lysophospholipid
+12261	taurodeoxycholate	Secondary Bile Acid Metabolism
+57689	N('1)-acetylspermidine	Polyamine Metabolism
+12129	beta-hydroxyisovalerate	Leucine, Isoleucine and Valine Metabolism
+40007	carboxyethyl-GABA	Glutamate Metabolism
+21184	1-oleoylglycerol (18:1)	Monoacylglycerol
+48460	propyl 4-hydroxybenzoate sulfate	Benzoate Metabolism
+34401	5-acetylamino-6-formylamino-3-methyluracil	Xanthine Metabolism
+15958	phenylacetate	Phenylalanine Metabolism
+22154	bradykinin	Polypeptide
+32377	N-acetylneuraminate	Aminosugar Metabolism
+1645	laurate (12:0)	Medium Chain Fatty Acid
+48491	sphingomyelin (d18:1/20:1, d18:2/20:0)*	Sphingolipid Metabolism
+34406	valerylcarnitine	Fatty Acid Metabolism(Acyl Carnitine)
+15676	3-methyl-2-oxovalerate	Leucine, Isoleucine and Valine Metabolism
+33943	N-acetylglutamine	Glutamate Metabolism
+37097	tryptophan betaine 	Tryptophan Metabolism
+47403	17alpha-hydroxypregnanolone glucuronide	Steroid
+1121	margarate (17:0)	Long Chain Fatty Acid
+52473	gamma-tocopherol/beta-tocopherol	Tocopherol Metabolism
+44688	maltotriose	Glycogen Metabolism
+38754	gamma-carboxyglutamate	Glutamate Metabolism
+35436	hexanoylglycine	Fatty Acid Metabolism(Acyl Glycine)
+18394	theophylline	Xanthine Metabolism
+44656	isovalerate	Leucine, Isoleucine and Valine Metabolism
+48392	palmitoyl-arachidonoyl-glycerophosphocholine (2)*	Lysolipid
+52478	1-(1-enyl-palmitoyl)-2-oleoyl-GPC (P-16:0/18:1)*	Plasmalogen
+42398	1-stearoyl-GPE (18:0)	Lysophospholipid
+48433	N-formylphenylalanine	Tyrosine Metabolism
+46548	3-methylglutarylcarnitine (2)	Leucine, Isoleucine and Valine Metabolism
+57664	N-oleoylserine	Endocannabinoid
+15365	glycerol 3-phosphate	Glycerolipid Metabolism
+52447	1-stearoyl-2-arachidonoyl-GPE (18:0/20:4)	Phosphatidylethanolamine (PE)
+36845	o-cresol sulfate	Benzoate Metabolism
+57591	beta-cryptoxanthin	Food Component/Plant
+514	cytidine	Pyrimidine Metabolism, Cytidine containing
+1107	allantoin	Purine Metabolism, (Hypo)Xanthine/Inosine containing
+43258	acisoga	Polyamine Metabolism
+1598	tigloylglycine	Leucine, Isoleucine and Valine Metabolism
+46225	pyroglutamine*	Glutamate Metabolism
+40456	fluvoxamine	Drug
+48698	6-hydroxyindole sulfate	Chemical
+57687	N-trimethyl 5-aminovalerate	Lysine Metabolism
+53223	palmitoleoylcarnitine (C16:1)*	Fatty Acid Metabolism(Acyl Carnitine)
+36713	N6-carboxymethyllysine	Advanced Glycation End-product
+43333	carboxyibuprofen	Drug
+52689	1-(1-enyl-palmitoyl)-2-arachidonoyl-GPC (P-16:0/20:4)*	Plasmalogen
+33230	1-palmitoleoyl-GPC (16:1)*	Lysophospholipid
+15053	sorbitol	Fructose, Mannose and Galactose Metabolism
+33959	N-acetyltryptophan	Tryptophan Metabolism
+1558	4-acetamidobutanoate	Polyamine Metabolism
+57406	palmitoleoyl-arachidonoyl-glycerol (16:1/20:4) [2]*	Diacylglycerol
+32489	caproate (6:0)	Medium Chain Fatty Acid
+52674	nervonate (24:1n9)*	Long Chain Fatty Acid
+42374	2-aminobutyrate	Glutathione Metabolism
+35127	pro-hydroxy-pro	Urea cycle; Arginine and Proline Metabolism
+33947	gamma-glutamyltryptophan	Gamma-glutamyl Amino Acid
+48383	palmitoyl-arachidonoyl-glycerophosphocholine (1)*	Lysolipid
+54957	palmitoyl-arachidonoyl-glycerol (16:0/20:4) [1]*	Diacylglycerol
+38306	metformin	Drug
+46552	allo-isoleucine	Leucine, Isoleucine and Valine Metabolism
+52474	1-(1-enyl-palmitoyl)-GPC (P-16:0)*	Lysoplasmalogen
+37536	12-HETE	Eicosanoid
+42002	lanthionine	Chemical
+15772	ribitol	Pentose Metabolism
+33953	N-acetylarginine	Urea cycle; Arginine and Proline Metabolism
+54923	beta-citrylglutamate	Glutamate Metabolism
+22176	cysteine s-sulfate	Methionine, Cysteine, SAM and Taurine Metabolism
+52975	glycodeoxycholate sulfate	Secondary Bile Acid Metabolism
+39796	1,1-kestotetraose	Food Component/Plant
+2761	thyroxine	Tyrosine Metabolism
+18477	glycodeoxycholate	Secondary Bile Acid Metabolism
+1493	ornithine	Urea cycle; Arginine and Proline Metabolism
+35126	phenylacetylglutamine	Acetylated Peptides
+57478	sphingomyelin (d18:1/25:0, d19:0/24:1, d20:1/23:0, d19:1/24:0)*	Sphingolipid Metabolism
+53237	sedoheptulose	Pentose Metabolism
+48388	stearoyl-linoleoyl-glycerophosphocholine (2)*	Lysolipid
+35103	1-dihomo-linoleoylglycerol (20:2)	Fatty Acid, Keto
+37186	5alpha-androstan-3alpha,17beta-diol monosulfate (1)	Steroid
+27731	ribonate	Pentose Metabolism
+22137	homoarginine	Urea cycle; Arginine and Proline Metabolism
+46165	3-methyl catechol sulfate (1)	Benzoate Metabolism
+35854	threitol	Pentose Metabolism
+40173	L-urobilin	Hemoglobin and Porphyrin Metabolism
+587	gluconate	Food Component/Plant
+33935	piperine	Food Component/Plant
+1604	urate	Purine Metabolism, (Hypo)Xanthine/Inosine containing
+47898	1-pentadecanoylglycerol (15:0)	Monoacylglycerol
+57482	sphingomyelin (d18:2/23:1)*	Sphingolipid Metabolism
+27719	galactonate	Fructose, Mannose and Galactose Metabolism
+31850	butyrylglycine	Fatty Acid Metabolism (also BCAA Metabolism)
+20694	oxalate (ethanedioate)	Ascorbate and Aldarate Metabolism
+35114	7-methylguanine	Purine Metabolism, Guanine containing
+39835	N-palmitoyltaurine	Endocannabinoid
+15140	kynurenine	Tryptophan Metabolism
+34534	laurylcarnitine (C12)	Fatty Acid Metabolism(Acyl Carnitine)
+43470	3-hydroxycotinine glucuronide	Tobacco Metabolite
+34456	gamma-glutamylisoleucine*	Gamma-glutamyl Amino Acid
+22001	3-hydroxyoctanoate	Fatty Acid, Monohydroxy
+15765	ethylmalonate	Leucine, Isoleucine and Valine Metabolism
+38609	pantoprazole	Drug
+22138	homocitrulline	Urea cycle; Arginine and Proline Metabolism
+40479	2-oxindole-3-acetate	Food Component/Plant
+32397	3-hydroxy-2-ethylpropionate	Leucine, Isoleucine and Valine Metabolism
+41374	phenylalanylalanine	Dipeptide
+42592	cimetidine	Drug
+33420	gamma-tocopherol	Tocopherol Metabolism
+1432	2-hydroxyphenylacetate	Tyrosine Metabolism
+35157	N6-carbamoylthreonyladenosine	Purine Metabolism, Adenine containing
+36098	4-vinylphenol sulfate	Benzoate Metabolism
+57370	lactosyl-N-nervonoyl-sphingosine (d18:1/24:1)*	Ceramides
+54968	linoleoyl-linoleoyl-glycerol (18:2/18:2) [1]*	Diacylglycerol
+48448	3-hydroxypyridine sulfate	Chemical
+33418	delta-tocopherol	Tocopherol Metabolism
+48255	arabonate/xylonate	Pentose Metabolism
+52716	1-(1-enyl-palmitoyl)-2-palmitoyl-GPC (P-16:0/16:0)*	Plasmalogen
+45413	O-sulfo-L-tyrosine	Chemical
+38140	1-hydroxy-2-naphthalenecarboxylate	Drug
+54961	oleoyl-arachidonoyl-glycerol (18:1/20:4) [2]*	Diacylglycerol
+37482	17alpha-hydroxypregnenolone 3-sulfate	Steroid
+31675	2-pyrrolidinone	Chemical
+57517	ximenoylcarnitine (C26:1)*	Fatty Acid Metabolism(Acyl Carnitine)
+38271	pristanate	Fatty Acid, Branched
+1419	5-methylthioadenosine (MTA)	Polyamine Metabolism
+33955	1-palmitoyl-GPC (16:0)	Lysophospholipid
+52633	palmitoyl-linoleoyl-glycerol (16:0/18:2) [1]*	Diacylglycerol
+37174	21-hydroxypregnenolone monosulfate (1)	Steroid
+54946	oleoyl-oleoyl-glycerol (18:1/18:1) [2]*	Diacylglycerol
+45095	2-methylbutyrylcarnitine (C5)	Leucine, Isoleucine and Valine Metabolism
+17799	ibuprofen	Drug
+21134	adipate	Fatty Acid, Dicarboxylate
+52449	1-stearoyl-2-arachidonoyl-GPI (18:0/20:4)	Phosphatidylinositol (PI)
+52452	1-stearoyl-2-linoleoyl-GPC (18:0/18:2)*	Phosphatidylcholine (PC)
+15500	carnitine	Carnitine Metabolism
+48341	1-dihomo-linolenylglycerol (20:3)	Monoacylglycerol
+48386	stearoyl-arachidonoyl-glycerophosphocholine (1)*	Lysolipid
+1605	ursodeoxycholate	Secondary Bile Acid Metabolism
+43374	indolin-2-one	Food Component/Plant
+54964	linoleoyl-linolenoyl-glycerol (18:2/18:3) [2]*	Diacylglycerol
+48715	eugenol sulfate	Food Component/Plant
+1302	methionine	Methionine, Cysteine, SAM and Taurine Metabolism
+15586	maltose	Glycogen Metabolism
+32198	acetylcarnitine (C2)	Fatty Acid Metabolism(Acyl Carnitine)
+36803	3beta,7alpha-dihydroxy-5-cholestenoate	Sterol
+35305	1-palmitoyl-GPI (16:0)	Lysophospholipid
+40410	cis-urocanate	Histidine Metabolism
+32586	bilirubin (E,E)*	Hemoglobin and Porphyrin Metabolism
+1359	oleate (18:1n9)	Long Chain Fatty Acid
+34407	isovalerylcarnitine (C5)	Leucine, Isoleucine and Valine Metabolism
+37196	5alpha-pregnan-3beta,20beta-diol monosulfate (1)	Steroid
+57511	linolenoylcarnitine (C18:3)*	Fatty Acid Metabolism(Acyl Carnitine)
+3155	3-ureidopropionate	Pyrimidine Metabolism, Uracil containing
+37200	5alpha-pregnan-3beta,20alpha-diol monosulfate (2)	Steroid
+37073	alpha-hydroxycaproate	Fatty Acid, Monohydroxy
+53254	caffeic acid sulfate	Xanthine Metabolism
+17805	dihomo-linoleate (20:2n6)	Polyunsaturated Fatty Acid (n3 and n6)
+19260	1-oleoyl-GPS (18:1)	Lysolipid
+33587	eicosenoate (20:1)	Long Chain Fatty Acid
+35433	beta-hydroxyisovaleroylcarnitine	Leucine, Isoleucine and Valine Metabolism
+1365	myristate (14:0)	Long Chain Fatty Acid
+33997	campesterol	Sterol
+40469	N1-Methyl-2-pyridone-5-carboxamide	Nicotinate and Nicotinamide Metabolism
+37175	21-hydroxypregnenolone monosulfate (2)	Steroid
+31932	propionylglycine	Fatty Acid Metabolism (also BCAA Metabolism)
+22114	indoleacrylate	Food Component/Plant
+52974	glycochenodeoxycholate sulfate	Primary Bile Acid Metabolism
+43239	S-allylcysteine	Food Component/Plant
+44872	gamma-glutamylmethionine	Gamma-glutamyl Amino Acid
+2829	N-formylmethionine	Methionine, Cysteine, SAM and Taurine Metabolism
+22116	4-methyl-2-oxopentanoate	Leucine, Isoleucine and Valine Metabolism
+34396	choline phosphate	Phospholipid Metabolism
+46223	linoleoylcarnitine (C18:2)*	Fatty Acid Metabolism(Acyl Carnitine)
+15681	4-guanidinobutanoate	Guanidino and Acetamido Metabolism
+38165	palmitoyl ethanolamide	Endocannabinoid
+33946	N-acetylhistidine	Histidine Metabolism
+57443	ceramide (d18:2/24:1, d18:1/24:2)*	Ceramides
+1105	linoleate (18:2n6)	Polyunsaturated Fatty Acid (n3 and n6)
+38170	pregnenolone sulfate	Steroid
+42381	gamma-CEHC glucuronide*	Tocopherol Metabolism
+56	cystine	Methionine, Cysteine, SAM and Taurine Metabolism
+38625	stearoyl ethanolamide	Endocannabinoid
+48391	palmitoyl-oleoyl-glycerophosphoglycerol (2)*	Lysolipid
+48258	1-oleoyl-GPC (18:1)	Lysophospholipid
+27447	1-linoleoylglycerol (18:2)	Monoacylglycerol
+46297	5-HEPE	Eicosanoid
+541	4-hydroxyphenylacetate	Phenylalanine Metabolism
+52435	sphingomyelin (d18:2/23:0, d18:1/23:1, d17:1/24:1)*	Sphingolipid Metabolism
+42420	erythronate*	Aminosugar Metabolism
+31530	threonylphenylalanine	Dipeptide
+15716	imidazole lactate	Histidine Metabolism
+32390	N-acetyltyrosine	Tyrosine Metabolism
+52614	1-(1-enyl-stearoyl)-2-oleoyl-GPE (P-18:0/18:1)	Plasmalogen
+34445	sphingosine 1-phosphate	Sphingolipid Metabolism
+37432	N-acetyl-beta-alanine	Pyrimidine Metabolism, Uracil containing
+39592	S-methylcysteine	Methionine, Cysteine, SAM and Taurine Metabolism
+52984	3-hydroxybutyrylcarnitine (2)	Fatty Acid Metabolism(Acyl Carnitine)
+52282	2-methylcitrate/homocitrate	TCA Cycle
+45415	3-(3-hydroxyphenyl)propionate sulfate	Benzoate Metabolism
+36847	2-ethylphenylsulfate	Benzoate Metabolism
+40719	(15:0)-anacardic acid	Food Component/Plant
+52710	1-linoleoyl-2-arachidonoyl-GPC (18:2/20:4n6)*	Phosphatidylcholine (PC)
+36754	octadecanedioate	Fatty Acid, Dicarboxylate
+42092	N-palmitoylglycine	Fatty Acid Metabolism(Acyl Glycine)
+48752	3-methoxycatechol sulfate (2)	Benzoate Metabolism
+37201	5alpha-pregnan-3alpha,20beta-diol disulfate 1	Steroid
+1110	arachidonate (20:4n6)	Polyunsaturated Fatty Acid (n3 and n6)
+35628	1-oleoyl-GPE (18:1)	Lysophospholipid
+32980	adrenate (22:4n6)	Polyunsaturated Fatty Acid (n3 and n6)
+37372	5-HETE	Eicosanoid
+48499	stearoyl-linoleoyl-glycerophosphoethanolamine (1)*	Lysolipid
+40506	1-(3-aminopropyl)-2-pyrrolidone	Chemical
+34398	glycylleucine	Dipeptide
+52477	1-(1-enyl-palmitoyl)-2-oleoyl-GPE (P-16:0/18:1)*	Plasmalogen
+36602	1-oleoyl-GPI (18:1)*	Lysophospholipid
+39601	homocitrate	Food Component/Plant
+40008	isoleucylglycine	Dipeptide
+31609	N1-methylguanosine	Purine Metabolism, Guanine containing
+22132	alpha-hydroxyisocaproate	Leucine, Isoleucine and Valine Metabolism
+39831	eicosanodioate	Fatty Acid, Dicarboxylate
+6146	2-aminoadipate	Lysine Metabolism
+37253	2-hydroxyglutarate	Fatty Acid, Dicarboxylate
+57453	glycosyl ceramide (d18:2/24:1, d18:1/24:2)*	Ceramides
+48728	daidzein sulfate (2)	Food Component/Plant
+32328	hexanoylcarnitine (C6)	Fatty Acid Metabolism(Acyl Carnitine)
+63	cholesterol	Sterol
+33968	5-dodecenoate (12:1n7)	Medium Chain Fatty Acid
+2137	biliverdin	Hemoglobin and Porphyrin Metabolism
+47101	N-methylpipecolate	Chemical
+577	fructose	Fructose, Mannose and Galactose Metabolism
+15990	glycerophosphorylcholine (GPC)	Phospholipid Metabolism
+52616	1-palmitoyl-2-stearoyl-GPC (16:0/18:0)	Phosphatidylcholine (PC)
+44620	4-acetylphenol sulfate	Drug
+32497	10-undecenoate (11:1n1)	Medium Chain Fatty Acid
+45966	1-stearoyl-GPS (18:0)*	Lysophospholipid
+18254	paraxanthine	Xanthine Metabolism
+18497	taurocholate	Primary Bile Acid Metabolism
+57	glutamate	Glutamate Metabolism
+37529	sphingomyelin (d18:1/18:1, d18:2/18:0)	Sphingolipid Metabolism
+38178	cis-4-decenoylcarnitine (C10:1)	Fatty Acid Metabolism(Acyl Carnitine)
+37752	13-HODE + 9-HODE	Fatty Acid, Monohydroxy
+1471	ribose	Pentose Metabolism
+42087	indoleacetylglutamine	Tryptophan Metabolism
+1118	arachidate (20:0)	Long Chain Fatty Acid
+42027	histidylalanine	Dipeptide
+53010	lactosyl-N-palmitoyl-sphingosine (d18:1/16:0)	Ceramides
+54966	diacylglycerol (16:1/18:2 [2], 16:0/18:3 [1])*	Diacylglycerol
+31912	glycolithocholate	Secondary Bile Acid Metabolism
+35253	2-palmitoyl-GPC (16:0)*	Lysophospholipid
+57518	arachidonoylcarnitine (C20:4)	Fatty Acid Metabolism(Acyl Carnitine)
+15650	N1-methyladenosine	Purine Metabolism, Adenine containing
+1497	ethanolamine	Phospholipid Metabolism
+38293	13-methylmyristic acid	Fatty Acid, Branched
+36747	deoxycarnitine	Carnitine Metabolism
+32457	3-hydroxylaurate	Fatty Acid, Monohydroxy
+35631	1-palmitoyl-GPE (16:0)	Lysophospholipid
+38595	ranitidine	Drug
+1356	nonadecanoate (19:0)	Long Chain Fatty Acid
+42449	1-palmitoyl-2-linoleoyl-GPE (16:0/18:2)	Phosphatidylethanolamine (PE)
+46115	21-hydroxypregnenolone disulfate	Steroid
+48997	isoeugenol sulfate	Food Component/Plant
+17769	sphinganine	Sphingolipid Metabolism
+15581	xylose	Pentose Metabolism
+46172	5alpha-pregnan-3(alpha or beta),20beta-diol disulfate	Steroid
+42489	2-hydroxydecanoate	Fatty Acid, Monohydroxy
+39271	1-(1-enyl-stearoyl)-GPE (P-18:0)*	Lysoplasmalogen
+42021	fexofenadine	Drug
+34428	1-palmitoyl-GPA (16:0)	Lysophospholipid
+33442	pseudouridine	Pyrimidine Metabolism, Uracil containing
+527	lactate	Glycolysis, Gluconeogenesis, and Pyruvate Metabolism
+37182	5alpha-androstan-3alpha,17alpha-diol disulfate	Steroid
+43807	bilirubin (Z,Z)	Hemoglobin and Porphyrin Metabolism
+31453	cysteine	Methionine, Cysteine, SAM and Taurine Metabolism
+32553	phenol sulfate	Tyrosine Metabolism
+46146	4-methylcatechol sulfate	Benzoate Metabolism
+53262	dihomo-linolenoyl-choline	Fatty Acid Metabolism (Acyl Choline)
+22036	2-hydroxyoctanoate	Fatty Acid, Monohydroxy
+21044	2-hydroxybutyrate (AHB)	Methionine, Cysteine, SAM and Taurine Metabolism
+48267	palmitoyl-oleoyl-glycerophosphocholine (1)*	Lysolipid
+40702	diglycerol	Chemical
+48389	palmitoyl-palmitoyl-glycerophosphocholine (2)*	Lysolipid
+15685	5-hydroxylysine	Lysine Metabolism
+34399	3,7-dimethylurate	Xanthine Metabolism
+37192	5alpha-androstan-3beta,17beta-diol monosulfate (2)	Steroid
+33942	N-acetylasparagine	Alanine and Aspartate Metabolism
+42459	sphingomyelin (d18:2/16:0, d18:1/16:1)*	Sphingolipid Metabolism
+54907	hexanoylglutamine	Fatty Acid Metabolism (Acyl Glutamine)
+18374	methionine sulfoxide	Methionine, Cysteine, SAM and Taurine Metabolism
+47108	estriol-3-glucuronide	Steroid
+1437	succinate	TCA Cycle
+37063	gamma-glutamylalanine	Gamma-glutamyl Amino Acid
+35128	ketamine	Drug
+32349	4-imidazoleacetate	Histidine Metabolism
+33447	palmitoleate (16:1n7)	Long Chain Fatty Acid
+57655	2'-O-methyluridine	Pyrimidine Metabolism, Uracil containing
+20676	maleate	Fatty Acid, Dicarboxylate
+52685	1-(1-enyl-oleoyl)-2-arachidonoyl-GPE (P-18:1/20:4)*	Plasmalogen
+47666	alpha-CEHC sulfate	Tocopherol Metabolism
+31943	3-hydroxysebacate	Fatty Acid, Monohydroxy
+38667	3-methylglutaconate	Leucine, Isoleucine and Valine Metabolism
+1572	glycerate	Glycolysis, Gluconeogenesis, and Pyruvate Metabolism
+35432	pivaloylcarnitine	Drug
+33949	gamma-glutamylglycine	Gamma-glutamyl Amino Acid
+46547	3-methylglutarylcarnitine (1)	Lysine Metabolism
+18476	glycocholate	Primary Bile Acid Metabolism
+34393	1-linolenoylglycerol (18:3)	Monoacylglycerol
+1567	vanillylmandelate (VMA)	Tyrosine Metabolism
+48387	stearoyl-linoleoyl-glycerophosphocholine (1)*	Lysolipid
+1418	5,6-dihydrothymine	Pyrimidine Metabolism, Thymine containing
+27665	1-methylnicotinamide	Nicotinate and Nicotinamide Metabolism
+40062	4-hydroxy-2-oxoglutaric acid	Fatty Acid, Dicarboxylate
+1868	cysteine	Methionine, Cysteine, SAM and Taurine Metabolism
+41220	2-stearoyl-GPE (18:0)*	Lysophospholipid
+57520	dihomo-linoleoylcarnitine (C20:2)*	Fatty Acid Metabolism(Acyl Carnitine)
+4966	xylitol	Pentose Metabolism
+48463	ethyl paraben sulfate	Chemical
+52673	1-(1-enyl-palmitoyl)-2-arachidonoyl-GPE (P-16:0/20:4)*	Plasmalogen
+48394	pregnanolone/allopregnanolone sulfate	Steroid
+32426	I-urobilinogen	Hemoglobin and Porphyrin Metabolism
+18349	indolelactate	Tryptophan Metabolism
+21049	1,6-anhydroglucose	Food Component/Plant
+52446	1-stearoyl-2-linoleoyl-GPE (18:0/18:2)*	Phosphatidylethanolamine (PE)
+33971	10-heptadecenoate (17:1n7)	Long Chain Fatty Acid
+57637	carotene diol (3)	Food Component/Plant
+1361	pentadecanoate (15:0)	Long Chain Fatty Acid
+48429	methyl-4-hydroxybenzoate sulfate	Benzoate Metabolism
+48445	2-methoxyresorcinol sulfate	Chemical
+47890	7-hydroxycholesterol (alpha or beta)	Sterol
+42446	1-palmitoyl-2-linoleoyl-GPC (16:0/18:2)	Phosphatidylcholine (PC)
+36649	sucralose	Food Component/Plant
+42109	phosphate	Oxidative Phosphorylation
+48490	sphingomyelin (d18:1/20:0, d16:1/22:0)*	Sphingolipid Metabolism
+42040	5-hydroxymethyl-2-furoic acid	Tyrosine Metabolism
+42370	S-1-pyrroline-5-carboxylate	Glutamate Metabolism
+33384	salicyluric glucuronide*	Drug
+57704	cephalexin 	Drug
+19324	1-stearoyl-GPI (18:0)	Lysophospholipid
+38768	15-methylpalmitate	Fatty Acid, Branched
+21151	saccharin	Food Component/Plant
+48580	2-acetamidophenol sulfate	Drug
+33441	isobutyrylcarnitine (C4)	Leucine, Isoleucine and Valine Metabolism
+36594	1-linoleoyl-GPI (18:2)*	Lysophospholipid
+52235	1-stearoyl-2-arachidonoyl-GPS (18:0/20:4)	Phosphatidylserine (PS)
+35635	3-(3-hydroxyphenyl)propionate	Benzoate Metabolism
+31536	N-(2-furoyl)glycine	Food Component/Plant
+1589	N-acetylmethionine	Methionine, Cysteine, SAM and Taurine Metabolism
+38276	2,3-dihydroxyisovalerate	Food Component/Plant
+1412	2'-deoxyuridine	Pyrimidine Metabolism, Uracil containing
+27513	indoleacetate	Tryptophan Metabolism
+15753	hippurate	Benzoate Metabolism
+48442	4-vinylguaiacol sulfate	Food Component/Plant
+52604	N-palmitoyl-sphinganine (d18:0/16:0)	Sphingolipid Metabolism
+57365	myristoyl dihydrosphingomyelin (d18:0/14:0)*	Sphingolipid Metabolism
+17662	estriol	Steroid
+573	cytosine	Pyrimidine Metabolism, Cytidine containing
+12122	naproxen	Drug
+15737	glycolate (hydroxyacetate)	Chemical
+48188	alpha-CEHC	Tocopherol Metabolism
+40473	hydantoin-5-propionic acid	Histidine Metabolism
+18280	gentisate	Tyrosine Metabolism
+34384	stachydrine	Food Component/Plant
+32350	1-methylimidazoleacetate	Histidine Metabolism
+22158	citramalate	Glutamate Metabolism
+43549	N-formylanthranilic acid	Tryptophan Metabolism
+1364	lignocerate (24:0)	Long Chain Fatty Acid
+47153	sphingomyelin (d18:1/24:1, d18:2/24:0)*	Sphingolipid Metabolism
+39346	alpha-CEHC glucuronide*	Tocopherol Metabolism
+47031	2-methoxyacetaminophen sulfate*	Drug
+3147	xanthine	Purine Metabolism, (Hypo)Xanthine/Inosine containing
+52687	1-oleoyl-2-linoleoyl-GPE (18:1/18:2)*	Phosphatidylethanolamine (PE)
+36812	1-oleoyl-GPA (18:1)	Lysophospholipid
+46111	O-methylcatechol sulfate	Benzoate Metabolism
+1806	retinol (Vitamin A)	Vitamin A Metabolism
+42382	S-adenosylhomocysteine (SAH)	Methionine, Cysteine, SAM and Taurine Metabolism
+48408	tyramine O-sulfate	Tyrosine Metabolism
+33936	octanoylcarnitine (C8)	Fatty Acid Metabolism(Acyl Carnitine)
+46164	3-methyl catechol sulfate (2)	Benzoate Metabolism
+52438	1-stearoyl-2-oleoyl-GPC (18:0/18:1)	Phosphatidylcholine (PC)
+43761	2-aminoheptanoate	Fatty Acid, Amino
+52453	1-oleoyl-2-linoleoyl-GPC (18:1/18:2)*	Phosphatidylcholine (PC)
+437	5-hydroxyindoleacetate	Tryptophan Metabolism
+57564	perfluorooctanesulfonic acid (PFOS)	Chemical
+52748	1-(1-enyl-stearoyl)-2-linoleoyl-GPE (P-18:0/18:2)*	Plasmalogen
+47154	sphingomyelin (d18:2/14:0, d18:1/14:1)*	Sphingolipid Metabolism
+4970	anthranilate	Tryptophan Metabolism
+64	phenylalanine	Phenylalanine Metabolism
+33443	valerate	Short Chain Fatty Acid
+43028	tryptophylglycine	Dipeptide
+42463	sphingomyelin (d18:1/14:0, d16:1/16:0)*	Sphingolipid Metabolism
+35172	orotidine	Pyrimidine Metabolism, Orotate containing
+45428	N-acetylmethionine sulfoxide	Methionine, Cysteine, SAM and Taurine Metabolism
+48153	mannose	Fructose, Mannose and Galactose Metabolism
+34389	1-methylxanthine	Xanthine Metabolism
+54999	1-(1-enyl-oleoyl)-2-linoleoyl-GPE (P-18:1/18:2)*	Lysoplasmalogen
+15872	malonate	Fatty Acid Synthesis
+31938	5-hydroxyhexanoate	Fatty Acid, Monohydroxy
+1566	3-aminoisobutyrate	Pyrimidine Metabolism, Thymine containing
+37210	androstenediol (3beta,17beta) monosulfate (2)	Steroid
+21320	ofloxacin	Drug
+396	glutarate (pentanedioate)	Fatty Acid, Dicarboxylate
+48733	vanillic alcohol sulfate	Tyrosine Metabolism
+18467	eicosapentaenoate (EPA; 20:5n3)	Polyunsaturated Fatty Acid (n3 and n6)
+53174	1,2-dilinoleoyl-GPE (18:2/18:2)*	Phosphatidylethanolamine (PE)
+37181	4-allylphenol sulfate	Food Component/Plant
+37455	glycerophosphoethanolamine	Phospholipid Metabolism
+57475	sphingomyelin (d18:1/19:0, d19:1/18:0)*	Sphingolipid Metabolism
+48757	N-acetylkynurenine (2)	Tryptophan Metabolism
+34419	1-linoleoyl-GPC (18:2)	Lysophospholipid
+43343	2-aminooctanoate	Fatty Acid, Amino
+34214	1-arachidonoyl-GPI (20:4)*	Lysophospholipid
+48990	pyruvate	Glycolysis, Gluconeogenesis, and Pyruvate Metabolism
+1559	5,6-dihydrouracil	Pyrimidine Metabolism, Uracil containing
+57440	ceramide (d18:1/20:0, d16:1/22:0, d20:1/18:0)*	Ceramides
+48149	N-acetylglucosaminylasparagine 	Aminosugar Metabolism
+46957	gulonate*	Ascorbate and Aldarate Metabolism
+21107	5-sulfosalicylate	Drug
+33080	N-ethylglycinexylidide	Drug
+15720	N-acetylglutamate	Glutamate Metabolism
+53220	1-eicosapentaenoylglycerol (20:5)*	Monoacylglycerol
+12125	behenate (22:0)*	Long Chain Fatty Acid
+38168	16a-hydroxy DHEA 3-sulfate	Steroid
+57483	sphingomyelin (d17:2/16:0, d18:2/15:0)*	Sphingolipid Metabolism
+34395	1-methylurate	Xanthine Metabolism
+46331	desmethylnaproxen	Drug
+57512	margaroylcarnitine*	Fatty Acid Metabolism(Acyl Carnitine)
+1444	pipecolate	Lysine Metabolism
+48303	oleoyl-linoleoyl-glycerophosphoinositol (1)*	Lysolipid
+1769	cortisone	Steroid
+48276	palmitoyl-palmitoyl-glycerophosphocholine (1)*	Lysolipid
+57464	stearoylcholine*	Fatty Acid Metabolism (Acyl Choline)
+32415	docosadienoate (22:2n6)	Polyunsaturated Fatty Acid (n3 and n6)
+43266	2-aminophenol sulfate	Chemical
+42450	1-stearoyl-2-arachidonoyl-GPC (18:0/20:4)	Phosphatidylcholine (PC)
+52914	5-hydroxyindole sulfate	Tryptophan Metabolism
+18281	2-hydroxyhippurate (salicylurate)	Benzoate Metabolism
+1358	stearate (18:0)	Long Chain Fatty Acid
+42448	1-stearoyl-2-oleoyl-GPE (18:0/18:1)	Phosphatidylethanolamine (PE)
+31787	3-carboxy-4-methyl-5-propyl-2-furanpropanoate (CMPF)	Fatty Acid, Dicarboxylate
+38125	4-cholesten-3-one	Sterol
+19263	1-palmitoyl-2-oleoyl-GPE (16:0/18:1)	Phosphatidylethanolamine (PE)
+52450	1-palmitoyl-2-linoleoyl-GPI (16:0/18:2)	Phosphatidylinositol (PI)
+15749	3-phenylpropionate (hydrocinnamate)	Benzoate Metabolism
+42994	glutamine-leucine	Dipeptide
+485	spermidine	Polyamine Metabolism
+35255	2-stearoyl-GPC (18:0)*	Lysolipid
+35174	mead acid (20:3n9)	Polyunsaturated Fatty Acid (n3 and n6)
+53224	pimeloylcarnitine/3-methyladipoylcarnitine (C7-DC)	Fatty Acid Metabolism(Acyl Carnitine)
+52468	1-stearoyl-2-linoleoyl-GPI (18:0/18:2)	Phosphatidylinositol (PI)
+48393	stearoyl-arachidonoyl-glycerophosphocholine (2)*	Lysolipid
+36808	dimethylarginine (SDMA + ADMA)	Urea cycle; Arginine and Proline Metabolism
+31539	O-acetylhomoserine	Glycine, Serine and Threonine Metabolism
+15704	pimelate (heptanedioate)	Fatty Acid, Dicarboxylate
+43249	N-delta-acetylornithine	Urea cycle; Arginine and Proline Metabolism
+32836	HWESASXX*	Polypeptide
+52987	N1,N12-diacetylspermine	Polyamine Metabolism
+22250	pyruvate	Glycolysis, Gluconeogenesis, and Pyruvate Metabolism
+15835	xylose	Pentose Metabolism
+32417	docosatrienoate (22:3n3)	Polyunsaturated Fatty Acid (n3 and n6)
+34365	3-(cystein-S-yl)acetaminophen*	Drug
+15730	suberate (octanedioate)	Fatty Acid, Dicarboxylate
+48441	4-hydroxychlorothalonil	Chemical
+57477	sphingomyelin (d18:1/22:2, d18:2/22:1, d16:1/24:2)*	Sphingolipid Metabolism
+22130	phenyllactate (PLA)	Phenylalanine Metabolism
+554	adenine	Purine Metabolism, Adenine containing
+52938	3-hydroxystearate	Fatty Acid, Monohydroxy
+35437	isobutyrylglycine	Leucine, Isoleucine and Valine Metabolism
+52634	palmitoyl-linoleoyl-glycerol (16:0/18:2) [2]*	Diacylglycerol
+43507	3b-hydroxy-5-cholenoic acid	Secondary Bile Acid Metabolism
+40459	escitalopram	Drug
+57636	carotene diol (2)	Food Component/Plant
+44619	fluoxetine	Drug
+20693	tartronate (hydroxymalonate)	Bacterial/Fungal
+1651	pyridoxal	Vitamin B6 Metabolism
+12035	pelargonate (9:0)	Medium Chain Fatty Acid
+43265	phenylcarnitine*	Chemical
+1638	arginine	Urea cycle; Arginine and Proline Metabolism
+32388	dodecanedioate	Fatty Acid, Dicarboxylate
+55	beta-alanine	Pyrimidine Metabolism, Uracil containing
+44621	1-(1-enyl-oleoyl)-GPE (P-18:1)*	Lysoplasmalogen
+42079	valylglutamine	Dipeptide
+57513	arachidoylcarnitine (C20)*	Fatty Acid Metabolism(Acyl Carnitine)
+1114	deoxycholate	Secondary Bile Acid Metabolism
+37092	gamma-glutamyl-2-aminobutyrate	Gamma-glutamyl Amino Acid
+1898	proline	Urea cycle; Arginine and Proline Metabolism
+601	dihydroorotate	Pyrimidine Metabolism, Orotate containing
+55072	2-oxoarginine*	Urea cycle; Arginine and Proline Metabolism
+1123	inosine	Purine Metabolism, (Hypo)Xanthine/Inosine containing
+1563	chenodeoxycholate	Primary Bile Acid Metabolism
+57330	lignoceroyl sphingomyelin (d18:1/24:0)	Sphingolipid Metabolism
+53034	14-HDoHE/17-HDoHE	Fatty Acid, Monohydroxy
+52470	1-palmitoyl-2-palmitoleoyl-GPC (16:0/16:1)*	Phosphatidylcholine (PC)
+38116	indole-3-carboxylic acid	Tryptophan Metabolism
+52669	1-palmitoyl-2-oleoyl-GPI (16:0/18:1)*	Phosphatidylinositol (PI)
+17747	sphingosine	Sphingolipid Metabolism
+53230	3-hydroxyhexanoate	Fatty Acid, Monohydroxy
+54945	oleoyl-oleoyl-glycerol (18:1/18:1)  [1]*	Diacylglycerol
+48885	arabitol/xylitol	Pentose Metabolism
+46799	oleoyl-linoleoyl-glycerol (18:1/18:2) [2]	Diacylglycerol
+15335	mannitol	Fructose, Mannose and Galactose Metabolism
+1899	quinolinate	Nicotinate and Nicotinamide Metabolism
+39600	3-hydroxyhippurate	Benzoate Metabolism
+1494	5-oxoproline	Glutathione Metabolism
+42095	palmitic amide	Fatty Acid, Amide
+590	hypotaurine	Methionine, Cysteine, SAM and Taurine Metabolism
+48679	N-acetylhistamine	Histidine Metabolism
+35702	beta-tocopherol	Tocopherol Metabolism
+22177	levulinate (4-oxovalerate)	Food Component/Plant
+1591	N-acetylvaline	Leucine, Isoleucine and Valine Metabolism
+1640	ascorbate (Vitamin C)	Ascorbate and Aldarate Metabolism
+53240	sulfamethoxazole	Drug
+37475	4-acetaminophen sulfate	Drug
+47120	9-hydroxystearate	Fatty Acid, Monohydroxy
+1712	cortisol	Steroid
+41754	heme	Hemoglobin and Porphyrin Metabolism
+48428	pyrraline	Food Component/Plant
+15336	tartarate	Food Component/Plant
+52605	sphinganine-1-phosphate	Sphingolipid Metabolism
+48282	stearoyl-arachidonoyl-glycerophosphoinositol (1)*	Lysolipid
+35669	tetradecanedioate	Fatty Acid, Dicarboxylate
+45951	1-linolenoyl-GPC (18:3)*	Lysophospholipid
+52340	N-carbamoylalanine	Alanine and Aspartate Metabolism
+47114	ferulic acid 4-sulfate	Food Component/Plant
+38075	arabitol	Pentose Metabolism
+48385	palmitoyl-linoleoyl-glycerophosphocholine (1)*	Lysolipid
+20699	erythritol	Food Component/Plant
+35638	xylonate	Pentose Metabolism
+22842	cholate	Primary Bile Acid Metabolism
+52433	sphingomyelin (d17:1/16:0, d18:1/15:0, d16:1/17:0)*	Sphingolipid Metabolism
+52459	1-palmitoyl-2-arachidonoyl-GPC (16:0/20:4)	Phospholipid Metabolism
+54960	oleoyl-arachidonoyl-glycerol (18:1/20:4) [1]*	Diacylglycerol
+37184	5alpha-androstan-3alpha,17beta-diol disulfate	Steroid
+34420	bradykinin, des-arg(9)	Polypeptide
+31548	DSGEGDFXAEGGGVR*	Fibrinogen Cleavage Peptide
+52495	sphingomyelin (d18:1/21:0, d17:1/22:0, d16:1/23:0)*	Sphingolipid Metabolism
+52608	linoleoyl ethanolamide	Endocannabinoid
+53013	glycosyl-N-palmitoyl-sphingosine (d18:1/16:0)	Ceramides
+52294	2-hydroxyglutarate	Fatty Acid, Dicarboxylate
+52434	palmitoyl dihydrosphingomyelin (d18:0/16:0)*	Sphingolipid Metabolism
+43591	N2,N5-diacetylornithine	Urea cycle; Arginine and Proline Metabolism
+32506	2-linoleoylglycerol (18:2)	Monoacylglycerol
+43378	S-methylcysteine sulfoxide	Methionine, Cysteine, SAM and Taurine Metabolism
+37496	N-acetylputrescine	Polyamine Metabolism
+1552	erucate (22:1n9)	Long Chain Fatty Acid
+42613	famotidine	Drug
+18362	azelate (nonanedioate)	Fatty Acid, Dicarboxylate
+53260	oleoylcholine	Fatty Acid Metabolism (Acyl Choline)
+1585	N-acetylalanine	Alanine and Aspartate Metabolism
+47155	glycerophosphoinositol*	Phospholipid Metabolism
+33973	epiandrosterone sulfate	Steroid
+39378	tauroursodeoxycholate	Secondary Bile Acid Metabolism
+553	cotinine	Tobacco Metabolite
+1504	nicotinate	Nicotinate and Nicotinamide Metabolism
+48569	acesulfame	Food Component/Plant
+44657	HWESASLLR	Polypeptide
+43530	N-acetyl-cadaverine	Lysine Metabolism
+39779	11-dehydrocorticosterone	Steroid
+35819	2-palmitoleoyl-GPC (16:1)*	Lysophospholipid
+58	glycine	Glycine, Serine and Threonine Metabolism
+38686	gabapentin	Drug
+33009	homostachydrine*	Food Component/Plant
+35855	ribulose	Pentose Metabolism
+1508	pantothenate	Pantothenate and CoA Metabolism
+1303	malate	TCA Cycle
+35639	vanillate	Food Component/Plant
+38127	S-methylmethionine	Methionine, Cysteine, SAM and Taurine Metabolism
+42395	undecanedioate	Fatty Acid, Dicarboxylate
+48425	phenylacetylcarnitine	Acetylated Peptides
+39837	docosadioate	Fatty Acid, Dicarboxylate
+48674	umbelliferone sulfate	Food Component/Plant
+52929	3,4-methyleneheptanoylcarnitine	Fatty Acid Metabolism(Acyl Carnitine)
+48762	1,2,3-benzenetriol sulfate (2)	Chemical
+52970	ursodeoxycholate sulfate (1)	Secondary Bile Acid Metabolism
+30460	1-methylhistidine	Histidine Metabolism
+35527	4-hydroxyhippurate	Benzoate Metabolism
+57641	levetiracetam	Drug
+57480	sphingomyelin (d18:2/21:0, d16:2/23:0)*	Sphingolipid Metabolism
+2342	serotonin	Tryptophan Metabolism
+40020	lysylleucine	Dipeptide
+33937	alpha-hydroxyisovalerate	Leucine, Isoleucine and Valine Metabolism
+39730	N-stearoyltaurine	Endocannabinoid
+35625	1-myristoylglycerol (14:0)	Monoacylglycerol
+39587	3-(4-hydroxyphenyl)propionate	Phenylalanine and Tyrosine Metabolism
+38100	betonicine	Food Component/Plant
+37058	succinylcarnitine (C4-DC)	TCA Cycle
+39270	1-(1-enyl-palmitoyl)-GPE (P-16:0)*	Lysoplasmalogen
+57372	N-behenoyl-sphingadienine (d18:2/22:0)*	Sphingolipid Metabolism
+37202	androstenediol (3beta,17beta) disulfate (1)	Steroid
+5969	17-alpha-hydroxyprogesterone	Steroid
+38637	cinnamoylglycine	Food Component/Plant
+47112	etiocholanolone glucuronide	Steroid
+36751	N2-acetyllysine	Lysine Metabolism
+1600	phosphoethanolamine	Phospholipid Metabolism
+38662	cotinine N-oxide	Tobacco Metabolite
+32379	scyllo-inositol	Inositol Metabolism
+57461	argininate*	Urea cycle; Arginine and Proline Metabolism
+1594	N-carbamoylaspartate	Pyrimidine Metabolism, Orotate containing
+1561	alpha-tocopherol	Tocopherol Metabolism
+512	asparagine	Alanine and Aspartate Metabolism
+54885	1-linoleoyl-GPG (18:2)*	Lysophospholipid
+32462	N-linoleoylglycine	Fatty Acid Metabolism(Acyl Glycine)
+33970	cis-vaccenate (18:1n7)	Long Chain Fatty Acid
+18392	theobromine	Xanthine Metabolism
+46960	sulfate*	Chemical
+46798	oleoyl-linoleoyl-glycerol (18:1/18:2) [1]	Diacylglycerol
+40481	dihydroferulic acid	Food Component/Plant
+36095	thymol sulfate	Food Component/Plant
+37114	N6-methyladenosine	Purine Metabolism, Adenine containing
+35675	2-hydroxypalmitate	Fatty Acid, Monohydroxy
+54963	linoleoyl-linolenoyl-glycerol (18:2/18:3) [1]*	Diacylglycerol
+513	creatinine	Creatine Metabolism
+15778	benzoate	Benzoate Metabolism
+1126	alanine	Alanine and Aspartate Metabolism
+33967	N-acetylisoleucine	Leucine, Isoleucine and Valine Metabolism
+19503	stearoyl sphingomyelin (d18:1/18:0)	Sphingolipid Metabolism
+20675	1,5-anhydroglucitol (1,5-AG)	Glycolysis, Gluconeogenesis, and Pyruvate Metabolism
+32405	indolepropionate	Tryptophan Metabolism
+33969	stearidonate (18:4n3)	Polyunsaturated Fatty Acid (n3 and n6)
+32412	butyrylcarnitine (C4)	Fatty Acid Metabolism (also BCAA Metabolism)
+52983	glycochenodeoxycholate glucuronide (1)	Primary Bile Acid Metabolism
+34400	1,7-dimethylurate	Xanthine Metabolism
+52677	1-(1-enyl-palmitoyl)-2-linoleoyl-GPE (P-16:0/18:2)*	Plasmalogen
+47135	11-ketoetiocholanolone glucuronide	Steroid
+34402	indolebutyrate	Tryptophan Metabolism
+1573	guanosine	Purine Metabolism, Guanine containing
+52462	1-palmitoyl-2-arachidonoyl-GPC (16:0/20:4n6)	Phosphatidylcholine (PC)
+52461	1-palmitoyl-2-oleoyl-GPC (16:0/18:1)	Phosphatidylcholine (PC)
+1417	kynurenate	Tryptophan Metabolism
+33487	glutamate, gamma-methyl ester	Glutamate Metabolism
+21188	1-stearoylglycerol (18:0)	Monoacylglycerol
+52713	1-(1-enyl-palmitoyl)-2-palmitoleoyl-GPC (P-16:0/16:1)*	Plasmalogen
+45721	3-(N-acetyl-L-cystein-S-yl) acetaminophen	Drug
+33945	phenylacetylglycine	Acetylated Peptides
+38661	hydroxycotinine	Tobacco Metabolite
+1124	myo-inositol	Inositol Metabolism
+20876	isosorbide	Drug
+33173	2-hydroxyacetaminophen sulfate*	Drug
+34387	N-acetylproline	Urea cycle; Arginine and Proline Metabolism
+1496	methylmalonate (MMA)	Fatty Acid Metabolism (also BCAA Metabolism)
+44876	gamma-CEHC	Tocopherol Metabolism
+2734	gamma-glutamyltyrosine	Gamma-glutamyl Amino Acid
+12083	ribose	Pentose Metabolism
+32562	pregnen-diol disulfate*	Steroid
+2730	gamma-glutamylglutamine	Gamma-glutamyl Amino Acid
+57554	2'-O-methylcytidine	Pyrimidine Metabolism, Cytidine containing
+19130	1,2-dipalmitoyl-GPC (16:0/16:0)	Phosphatidylcholine (PC)
+37183	5alpha-androstan-3alpha,17alpha-diol monosulfate	Steroid
+12017	3-methoxytyrosine	Tyrosine Metabolism
