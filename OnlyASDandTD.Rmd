@@ -10,6 +10,7 @@ source("../readData.R")
 
 ```{r PrepareData}
 # Functions
+
 funZfm <- function(data){
   sname <- names(data)[-1]
   d <- apply(data[,-1], 1, norm.z) %>% as.data.frame()
